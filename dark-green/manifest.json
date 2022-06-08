@@ -1,0 +1,41 @@
+{
+    "name": "Dark green",
+    "version": "2.0",
+    "description": "Deep organic nature theme",
+    "manifest_version": 3,
+    "theme": {
+        "colors":{
+            "bookmark_text": [255,255,255],
+            "frame": [20,36,36],
+            "frame_inactive": [41, 97, 83],
+            "frame_incognito": [20, 36, 36],
+            "frame_incognito_inactive": [1,122,89],
+            "ntp_background": [15,36,32],
+            "ntp_text": [255,255,255],
+            "ntp_link": [255,255,255],
+            "tab_background_text": [255,255,255],
+            "tab_text": [255,255,255],
+            "toolbar": [0,71,53],
+            "toolbar_button_icon": [255,255,255],
+            "toolbar_text": [255,255,255]
+        },
+        "icons": {
+            "16": "icons/icon16.jpg",
+            "32": "icons/icon32.jpg",
+            "48": "icons/icon48.jpg",
+            "128": "icons/icon128.jpg"
+        },
+        "images": {
+            "theme_ntp_background": "images/theme_ntp_background.png"
+        },
+        "properties": {
+            "ntp_background_alignment": "bottom",
+            "ntp_background_repeat": "repeat",
+            "ntp_logo_alternate": 1
+        },
+        "tints": {
+            "buttons": [0,0,1]
+        }
+
+    }
+}
